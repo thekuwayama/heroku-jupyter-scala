@@ -1,0 +1,9 @@
+{
+    "name": "heroku-jupyter-scala",
+    "description": "Heroku Button for Scala Jupyter Notebook",
+    "repository": "https://github.com/thekuwayama/heroku-jupyter-scala",
+    "stack": "container",
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ]
+}
