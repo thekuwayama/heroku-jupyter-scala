@@ -9,7 +9,4 @@
             "value": "jupyter_notebook_token"
         }
     }
-    "addons": [
-        "heroku-postgresql:hobby-dev"
-    ]
 }
