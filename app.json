@@ -3,6 +3,12 @@
     "description": "Heroku Button for Scala Jupyter Notebook",
     "repository": "https://github.com/thekuwayama/heroku-jupyter-scala",
     "stack": "container",
+    "env": {
+        "JUPYTER_TOKEN": {
+            "description": "jupyter notebook token",
+            "value": "jupyter_notebook_token"
+        }
+    }
     "addons": [
         "heroku-postgresql:hobby-dev"
     ]
